@@ -1,0 +1,17 @@
+.statement {
+	display:flex;
+	flex-wrap: wrap;
+	margin: 20px;
+}
+
+.statement img {
+	height: 75px;
+	padding-right: 30px;
+	padding-left: 80px;
+}
+
+.statement h3 {
+	font-weight: lighter;
+	font-family: 'Lora', serif;
+	font-size: 18px;
+}

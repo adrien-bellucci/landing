@@ -1,0 +1,38 @@
+.menu {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 80px;
+}
+
+.btn-menu {
+	display: flex;
+	justify-content: space-around;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 6px;
+	align-items: center;
+	padding: 10px;
+	margin: 5px;
+	flex-grow: 1;
+}
+
+.btn-menu:hover {
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
+	font-weight: bolder;
+}
+
+.btn-menu a {
+	margin: 0px auto;
+	display: flex;
+	justify-content: space-around;
+	font-family: 'Roboto', sans-serif;
+}
+
+.menu li{
+	list-style: none;
+}
+
+.menu a{
+	color:black;
+}
